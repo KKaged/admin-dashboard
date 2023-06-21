@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #191c24;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr;
+}
+
+.navbar {
+    background-color: skyblue;
+    grid-column: 2/4;
+}
+
+.sidebar {
+    background-color: palegreen;
+    grid-row: 1/4;
+}
+
+.projects {
+    background-color: palevioletred;
+    grid-row: 2/4;
+}
+
+.announcements {
+    background-color: palegoldenrod;
+}
+
+.trending {
+    background-color: powderblue;
+}
