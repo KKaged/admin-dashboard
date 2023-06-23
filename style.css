@@ -9,13 +9,27 @@
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 4fr 1.5fr;
-    grid-template-rows: 1fr 3fr 3fr;
+    grid-template-rows: 2fr 4fr 4fr;
     font-family: pathway Extreme;
 }
 
 .navbar {
-    background-color: skyblue;
+    background-color: #003773;
     grid-column: 2/4;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.search {
+    height: 30px;
+    width: 390px;
+    color: black;
+    background-color: #CCCCCC;
+    border: #00174C 2px solid;
+    border-radius: 15px;
 }
 
 .pfp {
@@ -31,23 +45,24 @@
 }
 
 .sidebar {
-    background-color: #00174C;
-    color: white;
+    background: #00174C;
+    color: #CCCCCC;
     grid-row: 1/4;
     display: flex;
     flex-direction: column;
     gap: 100px;
-    align-items: center;
 }
 
 .logo {
-    margin-top: 60px;
+    height: 125px;
 }
 
 .side-card {
-    width: 100%px;
-    height: 28px;
-    margin: 2px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-nav {
@@ -59,7 +74,10 @@
 .nav-one {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     gap: 32px;
+    width: 317px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -73,12 +91,15 @@
 }
 
 .side-card:hover {
-    color: #191c24;
-    background-color: #CCCCCC;
+    color: #FFCC00;
+    background-color: #FF004c;
+    border-left: #FFCC00 2px solid;
+    border-bottom: #FFCC00 2px solid;
     border-radius: 4px;
     width: 100%;
-    height: 28px;
-
+    height: 43px;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects {
