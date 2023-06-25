@@ -11,55 +11,56 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="navbar">
-        <div class="top-nav">
-          <div class="search-cont">
-            <span class="material-symbols-outlined"> search </span>
-            <input class="search" type="text" />
-          </div>
-          <div class="profile">
-            <img
-              class="pfp"
-              src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.640.medium.jpg/1677069646195.jpg"
-              alt="Max Verstappen"
-            />
-            <h2 class="name">Max Verstappen</h2>
-          </div>
+    <header class="header">
+      <div class="search-container">
+        <img
+          class="search-logo"
+          src="https://www.svgrepo.com/show/511119/search-magnifying-glass.svg"
+          alt=""
+        />
+        <input class="search-input" type="text" />
+      </div>
+      <div class="account-container">
+        <img
+          src="https://img.icons8.com/?size=512&id=Zux1S8Y4NyXe&format=png"
+          alt=""
+          class="bell"
+        />
+        <img
+          class="max"
+          src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.640.medium.jpg/1677069646195.jpg"
+          alt=""
+        />
+        <p class="max-name">Max Verstappen</p>
+      </div>
+      <div class="status-container">
+        <img
+          class="status-image"
+          src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.640.medium.jpg/1677069646195.jpg"
+          alt=""
+        />
+        <div class="status-words">
+          <p class="greetings-status">Hello,</p>
+          <p class="name-status">Max Verstappen (@max1)</p>
         </div>
       </div>
-      <div class="sidebar">
+      <div class="update-container">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </header>
+    <nav class="side-nav">
+      <div class="logo">
         <img
-          class="logo"
+          class="main-logo"
           src="https://cdn.freebiesupply.com/images/large/2x/red-bull-logo-png-transparent.png"
           alt=""
         />
-        <div class="main-nav">
-          <div class="nav-one">
-            <p class="side-card">Home</p>
-            <a class="side-card">Profile</a>
-            <a class="side-card">Messages</a>
-            <a class="side-card">History</a>
-            <a class="side-card">Task</a>
-            <a class="side-card">Community</a>
-          </div>
-          <div class="nav-two">
-            <a class="side-card">Settings</a>
-            <a class="side-card">Support</a>
-            <a class="side-card">Privacy</a>
-          </div>
-        </div>
       </div>
-      <div class="projects">
-        <div class="card">Project 1</div>
-        <div class="card">Project 2</div>
-        <div class="card">Project 3</div>
-        <div class="card">Project 4</div>
-        <div class="card">Project 5</div>
-        <div class="card">Project 6</div>
-      </div>
-      <div class="announcements">Test</div>
-      <div class="trending">Tesr2</div>
-    </div>
+      <div class="main-nav"></div>
+      <div class="settings"></div>
+    </nav>
+    <main class="projects"></main>
   </body>
 </html>
