@@ -157,16 +157,54 @@ button:active {
     width: 100%;
 }
 
-.projects {
+.main {
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin: 25px;
+    gap: 15px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(300px 2fr));
+    gap: 15px;
+
 }
 
 .card {
-    width: 35px;
-    height: 35px;
-    background-color: aqua;
-    border: 2px #011E3D solid;
+    background-color: #1F3F6E;
+    border-radius: 10px;
+    border: #D2003C 2px solid;
+    color: #F8F8F8;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: large;
+    align-self: center;
+}
+
+.desc {
+
+    font-size: large;
+}
+
+.right-main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+.trending {
+    background-color: #1F3F6E;
+    border-radius: 5px;
+}
+
+.announcements {
+    background-color: #1F3F6E;
+    border-radius: 5px;
 }
