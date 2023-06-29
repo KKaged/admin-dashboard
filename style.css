@@ -119,9 +119,54 @@ button:active {
     background-color: #011E3D;
     grid-row: 1/3;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .main-logo {
     height: 12rem;
+}
+
+.top-one {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.dash {
+    color: #F8F8F8;
+    font-size: 1.25rem;
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    margin: 2px;
+}
+
+.dash:hover {
+    background-color: #D2003C;
+    border-radius: 5px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.projects {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 25px;
+}
+
+.card {
+    width: 35px;
+    height: 35px;
+    background-color: aqua;
+    border: 2px #011E3D solid;
 }
