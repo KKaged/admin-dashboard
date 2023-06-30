@@ -233,4 +233,23 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+}
+
+.announce-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ann-title {
+    color: #D2003C;
+
+}
+
+.ann-disc {
+    margin: 10px;
+    font-size: small;
+    color: #FFCC00;
 }
